@@ -26,7 +26,7 @@ Built for **Windows 11 and Windows 10**, it completely replaces the clunky, buri
 
 Compatible with **Windows 11 and Windows 10** (64-bit and 32-bit):
 
-1. Download **`BetterColorProfileSetup.exe`** from the latest [GitHub Releases](https://github.com/KOUKOU221/Better-Color-Profile/releases).
+1. [**Download `BetterColorProfileSetup.exe`**](https://github.com/KOUKOU221/Better-Color-Profile/releases/latest/download/BetterColorProfileSetup.exe) (Direct download — automatically gets the latest release).
 2. Run the setup wizard:
    - Modern installation wizard with custom destination directory selection (automatically creates and installs into a dedicated `BetterColorProfile` folder).
    - Optional Start with Windows and desktop/start-menu shortcuts (enabled by default).
