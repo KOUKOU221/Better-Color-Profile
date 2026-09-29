@@ -1,0 +1,4 @@
+# Exclude files from GitHub auto-generated release archives
+README.md export-ignore
+assets/ export-ignore
+.gitattributes export-ignore
