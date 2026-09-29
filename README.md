@@ -22,6 +22,18 @@ Built for **Windows 11 and Windows 10**, it completely replaces the clunky, buri
 
 ---
 
+## 📦 Installation & Download
+
+Compatible with **Windows 11 and Windows 10** (64-bit and 32-bit):
+
+1. Download **`BetterColorProfileSetup.exe`** from the latest [GitHub Releases](https://github.com/KOUKOU221/Better-Color-Profile/releases).
+2. Run the setup wizard:
+   - Modern installation wizard with custom destination directory selection (automatically creates and installs into a dedicated `BetterColorProfile` folder).
+   - Optional Start with Windows and desktop/start-menu shortcuts (enabled by default).
+   - Clean uninstallation support via Windows Settings / Installed Apps.
+
+---
+
 ## 🛡️ 100% Anti-Cheat Friendly & Gamer Safe
 
 Unlike shader injectors (such as ReShade) or custom overlays that hook into game processes, **Better Color Profile is 100% safe for all competitive online games**:
@@ -70,18 +82,6 @@ Unlike shader injectors (such as ReShade) or custom overlays that hook into game
 * Minimizing or closing the window sends it directly to the system tray so the hotkey remains active.
 * Right-click tray menu provides quick slot switching, status overview, and settings.
 * Enable **Start with Windows** to keep your preferred profiles ready on startup.
-
----
-
-## 📦 Installation & Download
-
-Compatible with **Windows 11 and Windows 10** (64-bit and 32-bit):
-
-1. Download **`BetterColorProfileSetup.exe`** from the latest [GitHub Releases](https://github.com/KOUKOU221/Better-Color-Profile/releases).
-2. Run the setup wizard:
-   - Modern installation wizard with custom destination directory selection (automatically creates and installs into a dedicated `BetterColorProfile` folder).
-   - Optional Start with Windows and desktop/start-menu shortcuts (enabled by default).
-   - Clean uninstallation support via Windows Settings / Installed Apps.
 
 ---
 
