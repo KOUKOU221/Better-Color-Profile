@@ -26,7 +26,7 @@ Built for **Windows 11 and Windows 10**, it completely replaces the clunky, buri
 
 Compatible with **Windows 11 and Windows 10** (64-bit and 32-bit):
 
-1. [**Download `BetterColorProfileSetup.exe`**](https://github.com/KOUKOU221/Better-Color-Profile/releases/latest/download/BetterColorProfileSetup.exe) (Direct download — automatically gets the latest release).
+1. Download **`BetterColorProfileSetup.exe`** from the latest [GitHub Releases](https://github.com/KOUKOU221/Better-Color-Profile/releases).
 2. Run the setup wizard:
    - Modern installation wizard with custom destination directory selection (automatically creates and installs into a dedicated `BetterColorProfile` folder).
    - Optional Start with Windows and desktop/start-menu shortcuts (enabled by default).
@@ -84,35 +84,6 @@ Unlike shader injectors (such as ReShade) or custom overlays that hook into game
 * Enable **Start with Windows** to keep your preferred profiles ready on startup.
 
 ---
-
-## 🛠️ Building from Source
-
-To compile from source using the built-in Microsoft .NET C# compiler:
-
-```cmd
-build.bat
-```
-
-This compiles both:
-* `dist\BetterColorProfile.exe` (Standalone portable application)
-* `dist\BetterColorProfileSetup.exe` (Complete setup wizard installer)
-* Copies the standalone executable to the root directory for immediate local testing.
-
----
-
-<!--
-## ☕ Support the Project
-
-If **Better Color Profile** enhances your gaming experience, competitive visibility, or daily workflow, consider supporting ongoing development!
-
-<p align="left">
-  <a href="https://buymeacoffee.com/KOUKOU221" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" />
-  </a>
-</p>
-
----
--->
 
 ## 📄 License & Copyright
 Copyright © 2026 KOUKOU221. All rights reserved.
