@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-11%20%7C%2010-0078D6?logo=windows&logoColor=white" alt="Windows Support" />
   <img src="https://img.shields.io/badge/Anti--Cheat-100%25%20Safe-success" alt="Anti-Cheat Safe" />
-  <img src="https://img.shields.io/badge/Release-v1.3-EAB308" alt="Version" />
+  <img src="https://img.shields.io/badge/Release-v1.4-EAB308" alt="Version" />
   <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License" />
 </p>
 
@@ -72,11 +72,11 @@ Unlike shader injectors (such as ReShade) or custom overlays that hook into game
 * **Automatic Sequential Naming**: Creating a new profile? If no name is provided, names are automatically pre-filled sequentially (`Profile 1`, `Profile 2`, etc.).
 * **Instant ICC Generation**: Saves calibrated profiles directly into the `list\` directory and auto-associates them with your primary monitor.
 
-### 3. ⌨️ Global Hotkeys & Shortcuts
-* Press your shortcut anywhere to cycle between your configured profile slots instantly:
+### 3. ⌨️ Global & Per-Slot Hotkeys
+* **Direct Per-Slot Shortcuts**: Assign an individual shortcut to any profile slot (e.g. `Ctrl + 1`, `F1`, or any custom key combination) to jump directly to that profile without cycling.
+* **Cycle Shortcut**: Press your cycle shortcut anywhere to sequentially cycle through all configured profile slots:
   $$\text{Slot 1} \;\longrightarrow\; \text{Slot 2} \;\longrightarrow\; \text{Slot 3} \;\longrightarrow\; \text{...} \;\longrightarrow\; \text{Slot 1}$$
-* Fully customizable hotkey bindings in the Profiles tab (supports any single key or custom combination).
-* Subtle balloon toast notifications confirm the active profile name.
+* Fully customizable hotkey bindings in the Profiles tab (supports single keys and custom combinations with zero latency).
 
 ### 4. 🧰 System Tray & Background Daemon
 * Minimizing or closing the window sends it directly to the system tray so the hotkey remains active.
