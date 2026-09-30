@@ -49,7 +49,7 @@ Unlike shader injectors (such as ReShade) or custom overlays that hook into game
 
 * **Spot Enemies in Dark Corners**: Boost shadow visibility and contrast in competitive shooters (*CS2, Valorant, Apex Legends, Warzone, Escape from Tarkov*) without washing out bright areas.
 * **Custom Digital Vibrance & Color Temperature**: Give your display punchy colors, vibrant highlights, or a warm eye-friendly night tint per game.
-* **Instant Hotkey Switching (`Ctrl + Shift + C`)**: Switch instantly between your high-visibility gaming profile and accurate sRGB desktop profile without Alt-Tabbing or closing your game.
+* **Customizable Hotkey Switching**: Switch instantly between your high-visibility gaming profile and accurate sRGB desktop profile without Alt-Tabbing or closing your game. Bind any key or combination you prefer.
 * **Color Accuracy for Creators**: Switch back to true, calibrated sRGB for Photoshop, Premiere, or web browsing in a single click.
 
 ---
@@ -73,9 +73,9 @@ Unlike shader injectors (such as ReShade) or custom overlays that hook into game
 * **Instant ICC Generation**: Saves calibrated profiles directly into the `list\` directory and auto-associates them with your primary monitor.
 
 ### 3. ⌨️ Global Hotkeys & Shortcuts
-* Press **`Ctrl + Shift + C`** anywhere to cycle between your configured profile slots instantly:
+* Press your shortcut anywhere to cycle between your configured profile slots instantly:
   $$\text{Slot 1} \;\longrightarrow\; \text{Slot 2} \;\longrightarrow\; \text{Slot 3} \;\longrightarrow\; \text{...} \;\longrightarrow\; \text{Slot 1}$$
-* Fully customizable hotkey bindings in the Options tab.
+* Fully customizable hotkey bindings in the Profiles tab (supports any single key or custom combination).
 * Subtle balloon toast notifications confirm the active profile name.
 
 ### 4. 🧰 System Tray & Background Daemon
