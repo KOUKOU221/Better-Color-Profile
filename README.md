@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-11%20%7C%2010-0078D6?logo=windows&logoColor=white" alt="Windows Support" />
   <img src="https://img.shields.io/badge/Anti--Cheat-100%25%20Safe-success" alt="Anti-Cheat Safe" />
-  <img src="https://img.shields.io/badge/Release-v1.21-EAB308" alt="Version" />
+  <img src="https://img.shields.io/badge/Release-v1.3-EAB308" alt="Version" />
   <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License" />
 </p>
 
