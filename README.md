@@ -25,9 +25,9 @@ Built for **Windows 11 and Windows 10**, it completely replaces the clunky, buri
 
 ## 🌐 Try It Live: Interactive Web Showcase & Simulator
 
-Want to test Better Color Profile right inside your browser without installing anything? 
+👉 **[🚀 Launch Live Web Simulator](https://koukou221.github.io/Better-Color-Profile/)** *(Runs instantly in your browser — zero installation required)*
 
-Experience the **full authentic desktop UI**, drag all 7 hardware calibration sliders, and watch a virtual Counter-Strike 2 monitor transform dynamically in real time:
+Test Better Color Profile directly in your web browser:
 
 <p align="center">
   <a href="https://koukou221.github.io/Better-Color-Profile/">
@@ -35,12 +35,9 @@ Experience the **full authentic desktop UI**, drag all 7 hardware calibration sl
   </a>
 </p>
 
-* **Authentic App Frontend**: 1:1 pixel-accurate layout of the WPF application (`#27292D` dark theme, Profiles Hub, Live Calibration, Display Tuner, and Options).
-* **Real-Time GPU Hardware LUT Simulation**: Move Brightness, Contrast, Gamma, Warmth, and RGB sliders to see real-time color rendering on CS2 gameplay (Inferno & Anubis) with live telemetry readouts.
-* **4-Chapter GSAP Scroll Tour**: Smooth cinematic presentation walking through Profiles Hub, competitive shadow boosting, display tuning, and system settings.
-
-👉 **[🚀 Launch Live Web Simulator](https://koukou221.github.io/Better-Color-Profile/)** *(Runs instantly in browser via official GitHub Pages — zero installation required)*  
-👉 **[📥 Standalone HTML File](./Better_Color_Profile_Interactive_Guide.html)** *(Offline file — can also be saved and opened directly in Chrome/Edge)*
+* **Interactive Interface**: Test the real-time calibration sliders, tuner, and themes.
+* **Live Game Preview**: Move the sliders and watch game colors transform instantly.
+* **Zero Install Required**: Runs completely inside your web browser.
 
 ---
 
