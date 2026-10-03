@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Windows-11%20%7C%2010-0078D6?logo=windows&logoColor=white" alt="Windows Support" />
   <img src="https://img.shields.io/badge/Anti--Cheat-100%25%20Safe-success" alt="Anti-Cheat Safe" />
   <img src="https://img.shields.io/badge/Release-v1.61-EAB308" alt="Version" />
-  <a href="https://htmlpreview.github.io/?https://github.com/KOUKOU221/Better-Color-Profile/blob/main/Better_Color_Profile_Interactive_Guide.html"><img src="https://img.shields.io/badge/Live%20Demo-Try%20in%20Browser-00C853?logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://koukou221.github.io/Better-Color-Profile/"><img src="https://img.shields.io/badge/Live%20Demo-Try%20in%20Browser-00C853?logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
   <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License" />
 </p>
 
@@ -30,7 +30,7 @@ Want to test Better Color Profile right inside your browser without installing a
 Experience the **full authentic desktop UI**, drag all 7 hardware calibration sliders, and watch a virtual Counter-Strike 2 monitor transform dynamically in real time:
 
 <p align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/KOUKOU221/Better-Color-Profile/blob/main/Better_Color_Profile_Interactive_Guide.html">
+  <a href="https://koukou221.github.io/Better-Color-Profile/">
     <img src="assets/showcase_preview.png" alt="Better Color Profile Live Interactive Showcase" width="100%" />
   </a>
 </p>
@@ -39,8 +39,7 @@ Experience the **full authentic desktop UI**, drag all 7 hardware calibration sl
 * **Real-Time GPU Hardware LUT Simulation**: Move Brightness, Contrast, Gamma, Warmth, and RGB sliders to see real-time color rendering on CS2 gameplay (Inferno & Anubis) with live telemetry readouts.
 * **4-Chapter GSAP Scroll Tour**: Smooth cinematic presentation walking through Profiles Hub, competitive shadow boosting, display tuning, and system settings.
 
-👉 **[🚀 Launch Live Web Simulator](https://htmlpreview.github.io/?https://github.com/KOUKOU221/Better-Color-Profile/blob/main/Better_Color_Profile_Interactive_Guide.html)** *(Runs instantly in browser — zero installation required)*  
-👉 **[🌐 GitHub Pages Mirror](https://koukou221.github.io/Better-Color-Profile/)** *(Direct web mirror)*  
+👉 **[🚀 Launch Live Web Simulator](https://koukou221.github.io/Better-Color-Profile/)** *(Runs instantly in browser via official GitHub Pages — zero installation required)*  
 👉 **[📥 Standalone HTML File](./Better_Color_Profile_Interactive_Guide.html)** *(Offline file — can also be saved and opened directly in Chrome/Edge)*
 
 ---
