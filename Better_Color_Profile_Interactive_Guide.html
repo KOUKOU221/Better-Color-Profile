@@ -218,21 +218,23 @@
           </button>
           
           <!-- Dropdown Palette -->
-          <div class="absolute right-0 top-full mt-2 w-48 p-2 rounded-xl bg-[#181a22] border border-[#2e3140] shadow-2xl hidden group-hover:block z-50">
+          <div class="absolute right-0 top-full mt-2 w-52 p-2 rounded-xl bg-[#181a22] border border-[#2e3140] shadow-2xl hidden group-hover:block z-50">
             <div class="text-[10px] font-bold text-[#94a3b8] px-2 py-1 uppercase tracking-wider">14 Accent Themes</div>
             <div class="grid grid-cols-4 gap-1.5 p-1">
-              <button onclick="setTheme('Yellow', '#facc15', '#ca8a04')" class="w-8 h-8 rounded-lg bg-[#facc15] hover:scale-110 transition-transform" title="Yellow"></button>
-              <button onclick="setTheme('Cyan', '#06b6d4', '#0e7490')" class="w-8 h-8 rounded-lg bg-[#06b6d4] hover:scale-110 transition-transform" title="Cyan"></button>
-              <button onclick="setTheme('Emerald', '#10b981', '#047857')" class="w-8 h-8 rounded-lg bg-[#10b981] hover:scale-110 transition-transform" title="Emerald"></button>
-              <button onclick="setTheme('Amber', '#f59e0b', '#b45309')" class="w-8 h-8 rounded-lg bg-[#f59e0b] hover:scale-110 transition-transform" title="Amber"></button>
-              <button onclick="setTheme('Blue', '#3b82f6', '#1d4ed8')" class="w-8 h-8 rounded-lg bg-[#3b82f6] hover:scale-110 transition-transform" title="Blue"></button>
-              <button onclick="setTheme('Purple', '#a855f7', '#7e22ce')" class="w-8 h-8 rounded-lg bg-[#a855f7] hover:scale-110 transition-transform" title="Purple"></button>
-              <button onclick="setTheme('Fuchsia', '#d946ef', '#a21caf')" class="w-8 h-8 rounded-lg bg-[#d946ef] hover:scale-110 transition-transform" title="Fuchsia"></button>
-              <button onclick="setTheme('Red', '#ef4444', '#b91c1c')" class="w-8 h-8 rounded-lg bg-[#ef4444] hover:scale-110 transition-transform" title="Red"></button>
-              <button onclick="setTheme('Sky', '#0ea5e9', '#0369a1')" class="w-8 h-8 rounded-lg bg-[#0ea5e9] hover:scale-110 transition-transform" title="Sky"></button>
-              <button onclick="setTheme('Teal', '#14b8a6', '#0f766e')" class="w-8 h-8 rounded-lg bg-[#14b8a6] hover:scale-110 transition-transform" title="Teal"></button>
-              <button onclick="setTheme('Violet', '#8b5cf6', '#6d28d9')" class="w-8 h-8 rounded-lg bg-[#8b5cf6] hover:scale-110 transition-transform" title="Violet"></button>
-              <button onclick="setTheme('Green', '#22c55e', '#15803d')" class="w-8 h-8 rounded-lg bg-[#22c55e] hover:scale-110 transition-transform" title="Green"></button>
+              <button onclick="setTheme('Yellow')" class="w-8 h-8 rounded-lg bg-[#facc15] hover:scale-110 transition-transform" title="Yellow"></button>
+              <button onclick="setTheme('Amber')" class="w-8 h-8 rounded-lg bg-[#f59e0b] hover:scale-110 transition-transform" title="Amber"></button>
+              <button onclick="setTheme('Blue')" class="w-8 h-8 rounded-lg bg-[#3b82f6] hover:scale-110 transition-transform" title="Blue"></button>
+              <button onclick="setTheme('Cyan')" class="w-8 h-8 rounded-lg bg-[#06b6d4] hover:scale-110 transition-transform" title="Cyan"></button>
+              <button onclick="setTheme('Emerald')" class="w-8 h-8 rounded-lg bg-[#10b981] hover:scale-110 transition-transform" title="Emerald"></button>
+              <button onclick="setTheme('Fuchsia')" class="w-8 h-8 rounded-lg bg-[#d946ef] hover:scale-110 transition-transform" title="Fuchsia"></button>
+              <button onclick="setTheme('Green')" class="w-8 h-8 rounded-lg bg-[#22c55e] hover:scale-110 transition-transform" title="Green"></button>
+              <button onclick="setTheme('Indigo')" class="w-8 h-8 rounded-lg bg-[#6366f1] hover:scale-110 transition-transform" title="Indigo"></button>
+              <button onclick="setTheme('Pink')" class="w-8 h-8 rounded-lg bg-[#ec4899] hover:scale-110 transition-transform" title="Pink"></button>
+              <button onclick="setTheme('Purple')" class="w-8 h-8 rounded-lg bg-[#a855f7] hover:scale-110 transition-transform" title="Purple"></button>
+              <button onclick="setTheme('Red')" class="w-8 h-8 rounded-lg bg-[#ef4444] hover:scale-110 transition-transform" title="Red"></button>
+              <button onclick="setTheme('Sky')" class="w-8 h-8 rounded-lg bg-[#0ea5e9] hover:scale-110 transition-transform" title="Sky"></button>
+              <button onclick="setTheme('Teal')" class="w-8 h-8 rounded-lg bg-[#14b8a6] hover:scale-110 transition-transform" title="Teal"></button>
+              <button onclick="setTheme('Violet')" class="w-8 h-8 rounded-lg bg-[#8b5cf6] hover:scale-110 transition-transform" title="Violet"></button>
             </div>
           </div>
         </div>
@@ -388,15 +390,15 @@
                     </div>
 
                     <!-- Slot 1 Card (Default Protected Baseline) -->
-                    <div id="sim-slot-card-1" onclick="simSelectSlot(1)" class="p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] border-amber-400 shadow-[0_0_12px_rgba(250,204,21,0.2)] flex items-center justify-between">
+                    <div id="sim-slot-card-1" onclick="simSelectSlot(1)" class="p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] theme-border theme-glow flex items-center justify-between">
                       <div>
                         <div class="font-bold text-white text-xs flex items-center gap-1.5">
-                          <span class="text-amber-400">Default Profile</span>
+                          <span class="theme-accent">Default Profile</span>
                         </div>
                         <div class="text-[10px] text-[#A0AEC0] mt-0.5">Slot 1 • Default Windows Profile</div>
                       </div>
                       <div id="sim-slot-action-1">
-                        <span class="w-5 h-5 rounded-full bg-amber-400/20 text-amber-400 border border-amber-400/40 flex items-center justify-center font-bold text-[11px]">✓</span>
+                        <span class="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[11px] theme-accent border theme-border" style="background: var(--accent-glow);">✓</span>
                       </div>
                     </div>
 
@@ -446,8 +448,8 @@
                   <!-- Assigned Profile Master Card (#31343A, border #444952) -->
                   <div class="p-3 rounded-xl bg-[#31343A] border border-[#444952] space-y-2 flex-shrink-0">
                     <div class="flex items-center justify-between">
-                      <div class="text-[10px] font-mono uppercase tracking-wider text-amber-400 font-bold flex items-center gap-1.5">
-                        <span class="w-2 h-2 rounded-full bg-amber-400 inline-block animate-pulse"></span>
+                      <div class="text-[10px] font-mono uppercase tracking-wider theme-accent font-bold flex items-center gap-1.5">
+                        <span class="w-2 h-2 rounded-full theme-bg inline-block animate-pulse"></span>
                         ASSIGNED COLOR PROFILE
                       </div>
                       <!-- Edit Calibration Button (Visible when slot 2 is selected) -->
@@ -468,7 +470,7 @@
 
                     <!-- Dropdown selector -->
                     <div>
-                      <select id="sim-profile-dropdown" onchange="simChangeDropdown(this.value)" class="w-full bg-[#27292D] border border-[#444952] rounded-lg px-2 py-1 text-xs text-white focus:outline-none focus:border-amber-400 transition-all">
+                      <select id="sim-profile-dropdown" onchange="simChangeDropdown(this.value)" class="w-full bg-[#27292D] border border-[#444952] rounded-lg px-2 py-1 text-xs text-white focus:outline-none focus:border-[var(--accent)] transition-all">
                         <option value="srgb">Default Profile (sRGB Color Space Profile.icm)</option>
                         <option value="night">night (Profile 2.icc)</option>
                         <option value="cs2">CS2 Competitive Boost (vcgt).icc</option>
@@ -478,7 +480,7 @@
 
                     <!-- Slot Shortcut Assignment Row -->
                     <div class="flex items-center gap-2">
-                      <span class="text-[10px] font-semibold text-amber-400 whitespace-nowrap">Slot Shortcut</span>
+                      <span class="text-[10px] font-semibold theme-accent whitespace-nowrap">Slot Shortcut</span>
                       <div id="sim-slot-shortcut-text" class="flex-1 bg-[#27292D] border border-[#444952] rounded-lg px-2 py-0.5 text-[11px] text-[#A0AEC0] font-mono text-center">
                         None (Click to assign)
                       </div>
@@ -491,10 +493,10 @@
                   <!-- Protected Baseline info card when Slot 1 is active and not editing -->
                   <div id="sim-baseline-info-card" class="p-3 rounded-xl bg-[#31343A] border border-[#444952] space-y-1.5">
                     <div class="font-bold text-white text-xs flex items-center gap-1.5">
-                      <span class="text-amber-400">🛡️ Protected Windows Color Baseline</span>
+                      <span class="theme-accent">🛡️ Protected Windows Color Baseline</span>
                     </div>
                     <p class="text-[10px] text-[#A0AEC0] leading-relaxed">
-                      Slot 1 is your safe return anchor. It is permanently vaulted in <code class="px-1 py-0.5 rounded bg-black/40 text-amber-300 font-mono text-[9px]">.internal\</code>, ensuring your monitor factory color profile can never be corrupted, overwritten, or lost.
+                      Slot 1 is your safe return anchor. It is permanently vaulted in <code class="px-1 py-0.5 rounded bg-black/40 theme-accent font-mono text-[9px]">.internal\</code>, ensuring your monitor factory color profile can never be corrupted, overwritten, or lost.
                     </p>
                     <div class="flex gap-2 pt-1">
                       <span class="px-2 py-0.5 rounded bg-[#27292D] border border-[#444952] text-[9px] text-gray-300">✓ Factory sRGB linear ramp</span>
@@ -503,12 +505,12 @@
                   </div>
 
                   <!-- Live Calibration Sliders Panel (Unfolded in Edit Mode!) -->
-                  <div id="sim-edit-panel" class="p-3 rounded-xl bg-[#31343A] border border-amber-400/50 space-y-2.5 hidden transition-all duration-300">
+                  <div id="sim-edit-panel" class="p-3 rounded-xl bg-[#31343A] border theme-border space-y-2.5 hidden transition-all duration-300">
                     
                     <div class="flex items-center justify-between border-b border-[#444952] pb-1.5">
                       <div>
                         <span class="text-xs font-bold text-white">Master Display Calibration</span>
-                        <span class="text-[10px] text-amber-400 font-mono ml-2 font-bold">• Editing Calibration</span>
+                        <span class="text-[10px] theme-accent font-mono ml-2 font-bold">• Editing Calibration</span>
                       </div>
                       <div class="flex items-center gap-2">
                         <button onclick="simApplyEdit()" class="px-2.5 py-0.5 rounded-lg text-xs font-bold text-black theme-bg hover:brightness-110 shadow-sm transition-all">Apply</button>
@@ -522,7 +524,7 @@
                       <div class="flex items-center gap-2">
                         <span class="w-14 text-[#CBD5E1] text-[10px] font-medium">Brightness</span>
                         <input type="range" id="sim-edit-b" min="-100" max="100" value="37" oninput="simUpdateEditSlider('b', this.value)" class="fluent-slider flex-1">
-                        <span id="sim-edit-b-val" class="w-10 text-center font-mono font-bold text-[10px] text-amber-400 bg-black/40 py-0.5 rounded border border-white/5">+37%</span>
+                        <span id="sim-edit-b-val" class="w-10 text-center font-mono font-bold text-[10px] theme-accent bg-black/40 py-0.5 rounded border border-white/5">+37%</span>
                         <button onclick="simResetEditSlider('b')" title="Reset to 0%" class="text-[#718096] hover:text-white text-xs px-0.5">↺</button>
                       </div>
 
@@ -702,14 +704,21 @@
                     <div class="font-bold text-white text-xs">Appearance</div>
                     <div class="text-[10px] text-[#A0AEC0]">App Theme &amp; Accent Highlights</div>
                   </div>
-                  <select id="sim-options-theme" onchange="setTheme(this.value); simShowToast('Theme switched to ' + this.value)" class="bg-[#27292D] border border-[#444952] rounded-lg px-2.5 py-1 text-xs text-white focus:outline-none focus:border-amber-400 font-medium">
+                  <select id="sim-options-theme" onchange="setTheme(this.value); simShowToast('Theme switched to ' + this.value)" class="bg-[#27292D] border border-[#444952] rounded-lg px-2.5 py-1 text-xs text-white focus:outline-none focus:border-[var(--accent)] font-medium">
                     <option value="Yellow" selected>🟡 Yellow</option>
+                    <option value="Amber">🟠 Amber</option>
+                    <option value="Blue">🔷 Blue</option>
                     <option value="Cyan">🔵 Cyan</option>
                     <option value="Emerald">🟢 Emerald</option>
-                    <option value="Magenta">🟣 Magenta</option>
-                    <option value="Amber">🟠 Amber</option>
+                    <option value="Fuchsia">🟣 Fuchsia</option>
+                    <option value="Green">🍏 Green</option>
+                    <option value="Indigo">🫐 Indigo</option>
+                    <option value="Pink">🌸 Pink</option>
                     <option value="Purple">🟪 Purple</option>
                     <option value="Red">🔴 Red</option>
+                    <option value="Sky">🌐 Sky</option>
+                    <option value="Teal">🩵 Teal</option>
+                    <option value="Violet">🔮 Violet</option>
                   </select>
                 </div>
 
@@ -720,7 +729,7 @@
                     <div class="text-[10px] text-[#A0AEC0]">Launch automatically when Windows starts</div>
                   </div>
                   <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" checked onchange="simShowToast(this.checked ? '✓ Startup with Windows enabled' : 'Startup with Windows disabled')" class="w-4 h-4 rounded bg-[#27292D] border-[#444952] text-amber-400 focus:ring-0">
+                    <input type="checkbox" checked onchange="simShowToast(this.checked ? '✓ Startup with Windows enabled' : 'Startup with Windows disabled')" class="w-4 h-4 rounded bg-[#27292D] border-[#444952] focus:ring-0 cursor-pointer" style="accent-color: var(--accent);">
                     <span class="text-[11px] text-gray-300 font-medium">Start GUI</span>
                   </label>
                 </div>
@@ -732,7 +741,7 @@
                     <div class="text-[10px] text-[#A0AEC0]">Interpolate 12 gamma frames over 150ms</div>
                   </div>
                   <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" checked onchange="simShowToast(this.checked ? '✓ Cinema Fade active' : 'Direct cut transitions')" class="w-4 h-4 rounded bg-[#27292D] border-[#444952] text-amber-400 focus:ring-0">
+                    <input type="checkbox" checked onchange="simShowToast(this.checked ? '✓ Cinema Fade active' : 'Direct cut transitions')" class="w-4 h-4 rounded bg-[#27292D] border-[#444952] focus:ring-0 cursor-pointer" style="accent-color: var(--accent);">
                     <span class="text-[11px] text-gray-300 font-medium">Cinema Fade</span>
                   </label>
                 </div>
@@ -1066,17 +1075,57 @@
       tunerValues: { b: 0, c: 0, g: 0, w: 0, r: 0, grn: 0, bl: 0 }
     };
 
+    // Centralized Theme Variants (Synchronized with WinForms C# ThemeManager.Variants)
+    const APP_THEMES = {
+      Yellow:  { hex: '#facc15', dark: '#ca8a04', emoji: '🟡', label: 'Yellow' },
+      Amber:   { hex: '#f59e0b', dark: '#b45309', emoji: '🟠', label: 'Amber' },
+      Blue:    { hex: '#3b82f6', dark: '#1d4ed8', emoji: '🔷', label: 'Blue' },
+      Cyan:    { hex: '#06b6d4', dark: '#0e7490', emoji: '🔵', label: 'Cyan' },
+      Emerald: { hex: '#10b981', dark: '#047857', emoji: '🟢', label: 'Emerald' },
+      Fuchsia: { hex: '#d946ef', dark: '#a21caf', emoji: '🟣', label: 'Fuchsia' },
+      Green:   { hex: '#22c55e', dark: '#15803d', emoji: '🍏', label: 'Green' },
+      Indigo:  { hex: '#6366f1', dark: '#4338ca', emoji: '🫐', label: 'Indigo' },
+      Pink:    { hex: '#ec4899', dark: '#be185d', emoji: '🌸', label: 'Pink' },
+      Purple:  { hex: '#a855f7', dark: '#7e22ce', emoji: '🟪', label: 'Purple' },
+      Red:     { hex: '#ef4444', dark: '#b91c1c', emoji: '🔴', label: 'Red' },
+      Sky:     { hex: '#0ea5e9', dark: '#0369a1', emoji: '🌐', label: 'Sky' },
+      Teal:    { hex: '#14b8a6', dark: '#0f766e', emoji: '🩵', label: 'Teal' },
+      Violet:  { hex: '#8b5cf6', dark: '#6d28d9', emoji: '🔮', label: 'Violet' }
+    };
+
     // Theme Accent Helper
     function getAccentHex() {
       return getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#facc15';
     }
 
     function setTheme(name, hex, dark) {
-      document.documentElement.style.setProperty('--accent', hex);
-      document.documentElement.style.setProperty('--accent-dark', dark);
-      document.documentElement.style.setProperty('--accent-glow', hex + '55');
+      if (!name) return;
+      if (name.toLowerCase() === 'magenta') name = 'Fuchsia';
+      const theme = APP_THEMES[name] || APP_THEMES['Yellow'];
+      const finalHex = hex || theme.hex;
+      const finalDark = dark || theme.dark;
+
+      document.documentElement.style.setProperty('--accent', finalHex);
+      document.documentElement.style.setProperty('--accent-dark', finalDark);
+      document.documentElement.style.setProperty('--accent-glow', finalHex + '55');
+
+      // Update current theme label in navbar
       const label = document.getElementById('current-theme-label');
-      if (label) label.innerText = name;
+      if (label) label.innerText = theme.label || name;
+
+      // Update navbar trigger dot/swatch
+      const navSwatch = document.querySelector('#theme-btn-trigger .theme-bg');
+      if (navSwatch) {
+        navSwatch.style.backgroundColor = finalHex;
+      }
+
+      // Synchronize in-app Options dropdown
+      const select = document.getElementById('sim-options-theme');
+      if (select && select.value !== name) {
+        select.value = name;
+      }
+
+      // Re-initialize slider tracks with the new accent color
       simInitSliders();
     }
 
@@ -1237,7 +1286,7 @@
 
       if (id === 1) {
         if (s1) {
-          s1.className = 'p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] border-amber-400 shadow-[0_0_12px_rgba(250,204,21,0.2)] flex items-center justify-between';
+          s1.className = 'p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] theme-border theme-glow flex items-center justify-between';
         }
         if (s2) {
           s2.className = 'p-2.5 rounded-xl border transition-all cursor-pointer bg-[#27292D] border-[#3A3E46] hover:border-[#444952] flex items-center justify-between';
@@ -1255,7 +1304,7 @@
           s1.className = 'p-2.5 rounded-xl border transition-all cursor-pointer bg-[#27292D] border-[#3A3E46] hover:border-[#444952] flex items-center justify-between';
         }
         if (s2) {
-          s2.className = 'p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] border-amber-400 shadow-[0_0_12px_rgba(250,204,21,0.2)] flex items-center justify-between';
+          s2.className = 'p-2.5 rounded-xl border-2 transition-all cursor-pointer bg-[#31343A] theme-border theme-glow flex items-center justify-between';
         }
         if (editBtn) editBtn.classList.remove('hidden');
         const s2Lbl = document.getElementById('sim-slot2-label');
@@ -1272,12 +1321,12 @@
       const a1 = document.getElementById('sim-slot-action-1');
       const a2 = document.getElementById('sim-slot-action-2');
       if (id === 1) {
-        if (a1) a1.innerHTML = '<span class="w-5 h-5 rounded-full bg-amber-400/20 text-amber-400 border border-amber-400/40 flex items-center justify-center font-bold text-[11px]">✓</span>';
+        if (a1) a1.innerHTML = '<span class="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[11px] theme-accent border theme-border" style="background: var(--accent-glow);">✓</span>';
         if (a2) a2.innerHTML = '<button onclick="event.stopPropagation(); simApplySlot(2)" class="px-2.5 py-0.5 rounded-lg text-[10px] font-bold text-black theme-bg hover:brightness-110 shadow-sm transition-all">Apply</button>';
         simShowToast('✓ Applied Default Windows Profile');
       } else {
         if (a1) a1.innerHTML = '<button onclick="event.stopPropagation(); simApplySlot(1)" class="px-2.5 py-0.5 rounded-lg text-[10px] font-bold text-black theme-bg hover:brightness-110 shadow-sm transition-all">Apply</button>';
-        if (a2) a2.innerHTML = '<span class="w-5 h-5 rounded-full bg-amber-400/20 text-amber-400 border border-amber-400/40 flex items-center justify-center font-bold text-[11px]">✓</span>';
+        if (a2) a2.innerHTML = '<span class="w-5 h-5 rounded-full flex items-center justify-center font-bold text-[11px] theme-accent border theme-border" style="background: var(--accent-glow);">✓</span>';
         simShowToast('✓ Applied Profile: night (+37% Brightness)');
       }
       simSelectSlot(id);
