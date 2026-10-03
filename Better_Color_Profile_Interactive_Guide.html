@@ -197,83 +197,24 @@
         </div>
       </a>
 
-      <!-- Smooth Scroll Nav Links -->
-      <nav class="hidden md:flex items-center gap-1 text-xs font-bold text-[#94a3b8]">
-        <button onclick="scrollToSection('#features-grid')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-white/5 transition-all">✨ Features</button>
-      </nav>
-
-      <!-- Theme Switcher & CTA -->
-      <div class="flex items-center gap-3">
-        <!-- Compact Theme Swatch -->
-        <div class="relative group">
-          <button id="theme-btn-trigger" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#1f222d] border border-[#323646] text-xs font-semibold text-white hover:border-[#4c526a] transition-all">
-            <span class="w-2.5 h-2.5 rounded-full theme-bg"></span>
-            <span class="hidden sm:inline" id="current-theme-label">Yellow</span>
-            <span class="text-[10px] text-white/50">▾</span>
-          </button>
-          
-          <!-- Dropdown Palette -->
-          <div class="absolute right-0 top-full mt-2 w-52 p-2 rounded-xl bg-[#181a22] border border-[#2e3140] shadow-2xl hidden group-hover:block z-50">
-            <div class="text-[10px] font-bold text-[#94a3b8] px-2 py-1 uppercase tracking-wider">14 Accent Themes</div>
-            <div class="grid grid-cols-4 gap-1.5 p-1">
-              <button onclick="setTheme('Yellow')" class="w-8 h-8 rounded-lg bg-[#facc15] hover:scale-110 transition-transform" title="Yellow"></button>
-              <button onclick="setTheme('Amber')" class="w-8 h-8 rounded-lg bg-[#f59e0b] hover:scale-110 transition-transform" title="Amber"></button>
-              <button onclick="setTheme('Blue')" class="w-8 h-8 rounded-lg bg-[#3b82f6] hover:scale-110 transition-transform" title="Blue"></button>
-              <button onclick="setTheme('Cyan')" class="w-8 h-8 rounded-lg bg-[#06b6d4] hover:scale-110 transition-transform" title="Cyan"></button>
-              <button onclick="setTheme('Emerald')" class="w-8 h-8 rounded-lg bg-[#10b981] hover:scale-110 transition-transform" title="Emerald"></button>
-              <button onclick="setTheme('Fuchsia')" class="w-8 h-8 rounded-lg bg-[#d946ef] hover:scale-110 transition-transform" title="Fuchsia"></button>
-              <button onclick="setTheme('Green')" class="w-8 h-8 rounded-lg bg-[#22c55e] hover:scale-110 transition-transform" title="Green"></button>
-              <button onclick="setTheme('Indigo')" class="w-8 h-8 rounded-lg bg-[#6366f1] hover:scale-110 transition-transform" title="Indigo"></button>
-              <button onclick="setTheme('Pink')" class="w-8 h-8 rounded-lg bg-[#ec4899] hover:scale-110 transition-transform" title="Pink"></button>
-              <button onclick="setTheme('Purple')" class="w-8 h-8 rounded-lg bg-[#a855f7] hover:scale-110 transition-transform" title="Purple"></button>
-              <button onclick="setTheme('Red')" class="w-8 h-8 rounded-lg bg-[#ef4444] hover:scale-110 transition-transform" title="Red"></button>
-              <button onclick="setTheme('Sky')" class="w-8 h-8 rounded-lg bg-[#0ea5e9] hover:scale-110 transition-transform" title="Sky"></button>
-              <button onclick="setTheme('Teal')" class="w-8 h-8 rounded-lg bg-[#14b8a6] hover:scale-110 transition-transform" title="Teal"></button>
-              <button onclick="setTheme('Violet')" class="w-8 h-8 rounded-lg bg-[#8b5cf6] hover:scale-110 transition-transform" title="Violet"></button>
-            </div>
-          </div>
-        </div>
-
-        <button onclick="scrollToSection('#simulator')" class="px-4 py-1.5 rounded-lg text-xs font-black theme-bg text-[#111215] shadow-lg hover:opacity-90 transition-all">
-          Try Live
-        </button>
-      </div>
-
     </div>
   </header>
 
   <!-- ================= HERO SECTION (FIGMA STYLE) ================= -->
-  <section id="hero" class="relative pt-16 pb-20 px-4 max-w-5xl mx-auto text-center">
+  <section id="hero" class="relative pt-12 pb-14 px-4 max-w-5xl mx-auto text-center">
     
-    <!-- Hero Badges -->
-    <div class="inline-flex items-center gap-2 p-1.5 pr-4 rounded-full bg-[#181a22] border border-[#2e3140] mb-6 shadow-xl">
-      <span class="px-2.5 py-1 rounded-full text-[10px] font-black theme-bg text-[#111215]">WINDOWS 10 &amp; 11</span>
-      <span class="text-xs font-bold text-white/90">Instant In-Game Color Calibration</span>
-      <span class="text-white/40 text-xs">&rarr;</span>
-    </div>
-
     <!-- Main Headline with Gradient Glow -->
     <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.08] mb-6">
       Change your screen colors <br>
       <span class="theme-accent underline decoration-white/20 decoration-wavy">in one single click.</span>
     </h1>
 
-    <p class="text-base sm:text-xl text-[#94a3b8] max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+    <p class="text-base sm:text-xl text-[#94a3b8] max-w-2xl mx-auto mb-8 leading-relaxed font-normal">
       The simple, reliable way to adjust monitor brightness, contrast, and colors for gaming. Switch profiles instantly with hotkeys without leaving your game.
     </p>
 
-    <!-- Hero CTA Buttons -->
-    <div class="flex flex-wrap items-center justify-center gap-4">
-      <button onclick="scrollToSection('#simulator')" class="px-7 py-3.5 rounded-xl font-black text-sm theme-bg text-[#111215] shadow-2xl hover:opacity-95 transition-all transform hover:-translate-y-0.5 theme-glow">
-        🎮 Try Interactive Demo
-      </button>
-      <button onclick="scrollToSection('#features-grid')" class="px-7 py-3.5 rounded-xl font-bold text-sm bg-[#1a1c24] hover:bg-[#222530] text-white border border-[#2f3242] shadow-xl transition-all">
-        ✨ View Features
-      </button>
-    </div>
-
     <!-- Simple Trust Badges -->
-    <div class="flex flex-wrap items-center justify-center gap-6 mt-8 text-xs font-semibold text-gray-300">
+    <div class="flex flex-wrap items-center justify-center gap-6 text-xs font-semibold text-gray-300">
       <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> 100% Anti-Cheat Safe</span>
       <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-blue-400"></span> Zero Input Lag</span>
       <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-amber-400"></span> Instant In-Game Hotkeys</span>
