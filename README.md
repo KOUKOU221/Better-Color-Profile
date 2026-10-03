@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-11%20%7C%2010-0078D6?logo=windows&logoColor=white" alt="Windows Support" />
   <img src="https://img.shields.io/badge/Anti--Cheat-100%25%20Safe-success" alt="Anti-Cheat Safe" />
-  <img src="https://img.shields.io/badge/Release-v1.61-EAB308" alt="Version" />
+  <img src="https://img.shields.io/badge/Release-v1.62-EAB308" alt="Version" />
   <a href="https://koukou221.github.io/Better-Color-Profile/"><img src="https://img.shields.io/badge/Live%20Demo-Try%20in%20Browser-00C853?logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
   <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red" alt="License" />
 </p>
